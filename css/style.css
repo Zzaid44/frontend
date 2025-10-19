@@ -1,0 +1,37 @@
+h1,h2{
+
+color: rgb(255, 0, 0);
+font-size: 40px;
+text-align: center;
+
+}
+
+body{
+
+background-color: black;
+}
+/*معنها للكل*/
+*{
+
+color: gold;
+
+
+}
+/* class لكل العناصر 
+id لعنصر واحد*/
+
+/* الكلاس  */
+.zz{
+    text-align: right;
+    font-size: 30px;
+}
+/* ال id */
+#zzid{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+/*!important   للتخصيص اللون*/
