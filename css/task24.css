@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    background-color: hsl(167, 30%, 32%);
+    text-decoration: line-through;
+}
+pre{
+font-weight: bold;
+    font-size: 2rem;
+font-style: italic;
+text-transform: capitalize;
+color: azure;
+}
