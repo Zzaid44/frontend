@@ -1,8 +1,6 @@
 body{
-    
-}
-#grid{
-
+    margin: 0;
+    padding: 0;
 }
 #nav{
    width: 100%;
@@ -14,7 +12,6 @@ background-size: 100%;
 display: flex;
 background-repeat: no-repeat;
 }
-
 #nav h1{
     margin-left: 90px;
     margin-top: 15px;
@@ -66,33 +63,30 @@ color: rgba(255, 255, 255, 0.9);
 ul a:hover{
    color: #ffd166; !important
 }
-#h1{
-        margin-left: 120px;
+#week{
+     margin-left: 120px;
     font-size: 55px;
     margin-top: 30px;
 }
 #main{
     display: grid;
-grid-template-columns: auto auto auto;
+grid-template-columns:auto auto;
 gap: 100px;
 margin-left: 180px;
 margin-right: 100px;
 margin-top: 50px;
 
 }
+ #mainex{
+    display: grid;
+grid-template-columns:auto auto auto;
+gap: 100px;
+margin-left: 180px;
+margin-right: 100px;
+margin-top: 50px;
 
-    
-.card{
-    /* padding: 40px; */
-width: 28rem;
-h
 }
-
-
-
-
-
-
+ 
 @media screen and (max-width:600px){
 
 #nav{
@@ -110,12 +104,10 @@ h
   ul a {
     font-size: 16px;
   }
-
-  #h1 {
-    margin-left: 10;
+#week{
     font-size: 28px;
-    
-  }
+    margin-left: 20px;
+}
 
   #nav p {
     margin-left: 0;
@@ -123,16 +115,25 @@ h
     text-align: center;
     font-size: small;
   }
-  #main{
+  #mainex{
      display: grid;
 grid-template-columns: auto;
 gap: 40px;
-margin-left: 70px;
+margin-left: 100px;
 margin-right: 100px;
 margin-top: 50px;
 
 
   }
+#main{
+    display: grid;
+grid-template-columns:auto;
+gap: 10px;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
+
+}
   .card{
     /* padding: 40px; */
 width: 20rem;
@@ -191,11 +192,10 @@ margin-top: 50px;
   }
   .card{
     /* padding: 40px; */
-width: 18rem;
+width: 10rem;
 
 }
 #easy{
     font-size: small;
 }
 }
-
