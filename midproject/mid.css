@@ -1,9 +1,4 @@
-body{
-    
-}
-#grid{
 
-}
 #nav{
    width: 100%;
    height: 500px;
@@ -57,14 +52,14 @@ color: rgba(255, 255, 255, 0.9);
     gap: 50px;
 }
  ul a{
-    color: #ffffff ; !important
+    color: #ffffff ; 
     text-decoration: none;
     font-size: 25px;
     font-weight: 500;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6)
 }
 ul a:hover{
-   color: #ffd166; !important
+   color: #ffd166; 
 }
 #h1{
         margin-left: 120px;
@@ -85,7 +80,6 @@ margin-top: 50px;
 .card{
     /* padding: 40px; */
 width: 28rem;
-h
 }
 
 
